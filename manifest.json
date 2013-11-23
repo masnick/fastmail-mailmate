@@ -1,0 +1,16 @@
+{
+  "name": "MailMate links for FastMail",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add links to open a message in MailMate to FastMail.",
+  "permissions": [
+    "https://www.fastmail.fm/"
+  ],
+  "content_scripts" : [
+    {
+      "matches" : [ "https://www.fastmail.fm/*" ],
+      "js": ["jquery.js", "fastmail.js"],
+      "run_at" : "document_start"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 "Open in MailMate" link for FastMail
 ====================================
 
-See
+See [this blog post for more information](http://protips.maxmasnick.com/mailmate-add-open-in-mailmate-link-to-fastmails-web-interface).
 
 Installation
 ------------
